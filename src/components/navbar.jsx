@@ -6,7 +6,7 @@ import logo from "@/assest/logos/svg/logo-dark.svg"
 
 const NavBar = () =>{
     return(
-        <>
+        
         <div className={styles.navbar}>
         <div className={ styles.container}>
         <div><Image src={logo} width={48} height={48}/></div>
@@ -22,6 +22,6 @@ const NavBar = () =>{
         </div>
         </div>
         </div>
-        </>
+       
     );
 }
